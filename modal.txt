@@ -1,0 +1,33 @@
+{
+	"type": "modal",
+	"title": {
+		"type": "plain_text",
+		"text": "Gratitude Box",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Submit",
+		"emoji": true
+	},
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "input",
+      "block_id": "my_block",
+			"element": {
+				"type": "plain_text_input",
+        "action_id": "my_action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Say something nice!",
+				"emoji": true
+			}
+		}
+	]
+}
